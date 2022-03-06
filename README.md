@@ -11,14 +11,14 @@ The first step in any machine learning endeavor is examing the data and performi
 1. First step is determing what is the target for the model.  in this case it was the "IS_SUCCESSFUL" column since the goal is to train the model to predict if an organziation would be successful in their work if Alphabet Soup were to give them funding. 
 
 2. Second step is determing what variables are considered the features for the model.  Until actually running a model or doing further analysis on the data we cannot be certain which data is truly a feature but we can include what we believe could be important features.  In this case i've included:
-    -application type
-    -affiliation
-    -use case
-    -organization
-    -status
-    -income amount
-    -special considerations
-    -ask amount
+    a. application type
+    b. affiliation
+    c. use case
+    d. organization
+    e. status
+    f. income amount
+    g. special considerations
+    h. ask amount
 
  3. Thirdly anything not considered a feature or a target needed to be removed from the data set. This included the Name and EIN data columns.  
 
